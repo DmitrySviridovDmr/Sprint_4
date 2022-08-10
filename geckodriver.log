@@ -1,0 +1,11 @@
+1659965610550	geckodriver	INFO	Listening on 127.0.0.1:60734
+1659965613616	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60735" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sviri\\AppData\\Local\\Temp\\rust_mozprofilexIKO90"
+1659965613923	Marionette	INFO	Marionette enabled
+1659965613927	Marionette	INFO	Listening on port 60744
+WebDriver BiDi listening on ws://localhost:60735
+Read port: 60744
+1659965614028	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sviri\\AppData\\Local\\Temp\\rust_mozprofilexIKO90\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60735/devtools/browser/995be65e-9dc5-41b4-b834-2088b51317c1
+1659965616734	Marionette	INFO	Stopped listening on port 60744
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 69: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
